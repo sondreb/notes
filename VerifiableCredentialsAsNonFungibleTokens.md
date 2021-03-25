@@ -89,3 +89,21 @@ If based on a standard UTXO-based blockchain, then costs will be the regular blo
 1. User pays for NFT using a transaction to receiver address.
 1. User can at any time prove to any third parties that they are the rightful owner.
 1. User want to resell an NFT they could publish a new VC to the marketplace API.
+
+# Additional notes
+
+VCs can easily embedd the complete data for an NFT, including images. The NFTs is something that the owner should persist and store. It does not make sense to have a globally distributed complete replica of NFTs on all the blockchain nodes. Either IPFS or data vault resolving through the VC is sensible.
+
+If this is not wrong (need verification), the ERC-based NFTs can use "tokenURI" to externally reference the JSON structure for the NFT; but these are normally not signed documents. This is an important difference where VCs will be fully signed entities that are verifiable.
+
+Example of unsigned token metadata: https://opensea-creatures-api.herokuapp.com/api/creature/3
+
+IPFS partly solves this issue by having immutable data.
+
+# Resources
+
+https://opensea.io/blog/guides/non-fungible-tokens/
+
+[dGoods: Digital Goods Token Spec v1.0](https://github.com/MythicalGames/dgoods/blob/master/dgoods_spec.md)
+
+[Metadata Standards](https://docs.opensea.io/docs/metadata-standards)
