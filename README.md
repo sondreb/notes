@@ -1,2 +1,3 @@
-# notes
-Random notes
+# Random notes
+
+[VCs as NTFs](VerifiableCredentialsAsNonFungibleTokens.md)
