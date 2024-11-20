@@ -52,4 +52,6 @@ While everyone has an eqal opportunity to mint new money, we all have different 
 
 This paper advocates for a fundamental shift in the way money is created and distributed. By empowering individuals to mint money through productive efforts, we can build a more equitable and innovative society. The proposed system leverages the strengths of decentralized networks, drawing inspiration from Bitcoin's early days, while addressing the shortcomings of UBI. This paradigm shift is essential for a future where human capital is the true measure of economic value.
 
+Another way to describe this process, is **Human-Proof-of-Work** (HPoW).
+
 -- Sondre Bjellås
